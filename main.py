@@ -9,10 +9,10 @@ with open("config.json", "r", encoding="utf-8") as f:
 
 intents = discord.Intents.default()
 intents.members = True
-intents.message_content = True  # required for prefix commands
+intents.message_content = True 
 
 bot = commands.Bot(command_prefix=",", intents=intents)
-bot.config = config  # accessible in embed.py via interaction.client.config
+bot.config = config  
 
 
 @bot.event
