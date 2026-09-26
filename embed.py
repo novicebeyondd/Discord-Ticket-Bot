@@ -4,8 +4,8 @@ from database import db
 
 def build_ticket_panel_embed() -> discord.Embed:
     """
-    Fill in title/description/color/emojis yourself below.
-    No banner image for now.
+    fill in title/description/color/emojis yourself below.
+    put banner if you want.
     """
     embed = discord.Embed(
         title="Support Tickets",
